@@ -1,5 +1,5 @@
-import loaded from './loaded';
+import loadApp from './loadApp';
 
 export default ({
-  loaded,
+  loadApp,
 });

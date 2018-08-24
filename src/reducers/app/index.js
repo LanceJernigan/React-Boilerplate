@@ -1,4 +1,4 @@
-import Actions from '../../actions/app/actions';
+import * as Actions from '../../actions/app/actions';
 
 const defaultState = ({
     loaded: false,
