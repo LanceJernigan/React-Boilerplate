@@ -2,10 +2,15 @@
   "name": "react-boilerplate",
   "version": "0.0.1",
   "description": "React boilerplate",
-  "keywords": [ "react", "redux", "react-router" ],
+  "keywords": [
+    "react",
+    "redux",
+    "react-router"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "emotion": "latest",
+    "global": "^4.3.2",
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "^5.0.7",
