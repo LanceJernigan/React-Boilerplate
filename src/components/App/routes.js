@@ -7,7 +7,7 @@ import Actions from '../../actions/app';
 
 import noop from '../../utils/noop';
 
-import HelloWorld from '../../pages/HelloWorld';
+import Mentor from '../../pages/Mentor';
 
 class Routes extends React.Component {
   componentDidMount() {
@@ -28,7 +28,7 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route component={HelloWorld} />
+          <Route path="/mentor" component={Mentor} />
         </Switch>
       </Router>
     );
