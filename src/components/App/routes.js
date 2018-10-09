@@ -8,6 +8,7 @@ import Actions from '../../actions/app';
 import noop from '../../utils/noop';
 
 import Mentor from '../../pages/Mentor';
+import Engineer from '../../pages/Engineer';
 
 class Routes extends React.Component {
   componentDidMount() {
@@ -29,6 +30,7 @@ class Routes extends React.Component {
       <Router>
         <Switch>
           <Route path="/mentor" component={Mentor} />
+          <Route path="/engineer" component={Engineer} />
         </Switch>
       </Router>
     );
